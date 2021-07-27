@@ -1,6 +1,33 @@
 /*---------------------------------
             Body Styles
 ----------------------------------*/
-body{
-   /* text-align: justify; */
+.panda-bg-info{
+   background-color: #fceae8;
+}
+.panda-catagories img{
+   width: 100px;
+}
+.panda-buy-btn{
+   background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+   background-color: #ff136f;
+   color: #fff;
+   border: none;
+   border-radius: 8px;
+   padding: 9px 25px;
+}
+.slide-dollar{
+   color: #ff136f;
+}
+.catagories-top{
+   background-color: #ffa500;
+   color: #fff;
+}
+.catagories-middle{
+   background-color: #da70d6;
+   color: #fff;
+}
+.catagories-bottom{
+   background-color: #0000ff;
+   color: #fff;
+
 }
