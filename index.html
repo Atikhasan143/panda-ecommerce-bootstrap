@@ -23,7 +23,7 @@
     ---------------------------------->
     <header>
         <!---------------Navbar Styles---------------->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light mb-5">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" width="" height="">
@@ -36,23 +36,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">BackPack</a>
+                            <a class="nav-link" href="#bagpack">BackPack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!---------------Image Slider----------------->
-        <section class="container">
+        <section class="container" id="home">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -143,7 +143,7 @@
         </section>
         <!-------------Shoes Card Sections---------->
         <section class="container my-5">
-            <h2>Shoes</h2>
+            <h2 id="shoes">Shoes</h2>
             <div class="row row-cols-1 row-cols-md-3 g-5 rounded-3">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card border-0 h-100 shadow-lg">
@@ -193,7 +193,7 @@
             </div>
         </section>
         <!-------------------Bagpack Card Sections--------------------->
-        <section class="container my-5">
+        <section class="container my-5" id=bagpack>
             <h2>Bagpack</h2>
             <div class="row row-cols-1 row-cols-md-3 g-5 rounded-3">
                 <div class="col-12 col-md-6 col-lg-4">
@@ -246,7 +246,8 @@
         </section>
         <!---------------------------Subscribes Button Sections------------------------->
         <section style="height: 300px;"
-            class="container  bg-info bg-gradient my-5  d-flex justify-content-center align-items-center rounded-3">
+            class="container  bg-info bg-gradient my-5  d-flex justify-content-center align-items-center rounded-3"
+            id="subscribe">
             <div class="subscribe-area">
                 <h1>LET'S STAY IN TOUCH</h1>
                 <p class="my-0">Get updates on sales, specials and more</p>
