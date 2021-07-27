@@ -21,13 +21,15 @@
 .catagories-top{
    background-color: #ffa500;
    color: #fff;
+   border-radius: 10px;
 }
 .catagories-middle{
    background-color: #da70d6;
    color: #fff;
+   border-radius: 10px;
 }
 .catagories-bottom{
    background-color: #0000ff;
    color: #fff;
-
+   border-radius: 10px;
 }
